@@ -18,10 +18,10 @@ const App = () => {
             <Route exact path="/">
               <Signin />
             </Route>
-            <Route path="/Login">
+            <Route exact path="/Login">
               <Signin />
             </Route>
-            <Route path="/Ticketbook">
+            <Route exact path="/Ticketbook">
               <Ticketsystem />
             </Route>
           </Switch>
